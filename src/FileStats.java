@@ -1,3 +1,9 @@
+/**
+ * Author Sequoyah Kerpan Schaefer
+ * Since Version 1.0
+ * 3/24/2023
+ */
+
 import java.io.*;
 
 public class FileStats {

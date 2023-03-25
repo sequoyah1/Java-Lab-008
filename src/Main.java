@@ -1,13 +1,23 @@
+/**
+ * Author Sequoyah Kerpan Schaefer
+ * Since Version 1.0
+ * 3/24/2023
+ */
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
         // Create a scanner object
+        Scanner scanner = new Scanner(System.in);
 
         // Write a loop that will ask the user to enter a file path to gather stats on,
         // and continue until "Q" is entered.
